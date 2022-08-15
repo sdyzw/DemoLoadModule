@@ -3,7 +3,9 @@
 本项目是一个测试模块加载的一个demo，仅本地测试可用
 
 主要是用于对pyd进行动态管理和加载。
+## 示例1：
 
+![](C:/Users/CAMEL-CODE/Pictures/截图/热加载示例.gif)
 ## main.py
 
     main.py 是一个示例可导入文件，可以直接运行或者打包成exe文件。
