@@ -4,7 +4,6 @@
 
 主要是用于对pyd进行动态管理和加载。
 ## 示例1：
-![img](https://github.com/sdyzw/DemoLoadModule/blob/master/a/%E7%83%AD%E5%8A%A0%E8%BD%BD%E7%A4%BA%E4%BE%8B.gif)
 [![vazpy8.gif](https://s1.ax1x.com/2022/08/15/vazpy8.gif)](https://imgtu.com/i/vazpy8)
 ## main.py
 
