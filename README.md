@@ -4,8 +4,8 @@
 
 主要是用于对pyd进行动态管理和加载。
 ## 示例1：
+![img](https://github.com/sdyzw/DemoLoadModule/blob/master/a/%E7%83%AD%E5%8A%A0%E8%BD%BD%E7%A4%BA%E4%BE%8B.gif)
 
-![](C:/Users/CAMEL-CODE/Pictures/截图/热加载示例.gif)
 ## main.py
 
     main.py 是一个示例可导入文件，可以直接运行或者打包成exe文件。
