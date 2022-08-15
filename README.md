@@ -5,6 +5,8 @@
 主要是用于对pyd进行动态管理和加载。
 ## 示例1：
 [![vazpy8.gif](https://s1.ax1x.com/2022/08/15/vazpy8.gif)](https://imgtu.com/i/vazpy8)
+## 示例2：
+[![vdF4KI.gif](https://s1.ax1x.com/2022/08/15/vdF4KI.gif)](https://imgtu.com/i/vdF4KI)
 ## main.py
 
     main.py 是一个示例可导入文件，可以直接运行或者打包成exe文件。
