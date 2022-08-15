@@ -8,11 +8,11 @@ from PyQt5.Qt import *
 
 import need.setting
 
-from need.module import load_module
 from need.module.base_file import get_all_file_list
 
 # from need.module.load_module import modules, instance
 
+from need.module import load_module
 
 load_module.instance()
 modules = load_module.modules

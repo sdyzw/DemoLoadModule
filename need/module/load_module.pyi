@@ -14,6 +14,7 @@ from types import ModuleType
 
 
 class Modules:
+    setting = None
     def reload(self, module: ModuleType):
         pass
     
@@ -47,7 +48,7 @@ modules: Modules = None
 def instance(): # module(None) -> Modules()
     pass
     
-    
+# modules.setting
     
 
 # This is not Python source even if it looks so. Make it clear for
