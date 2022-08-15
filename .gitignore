@@ -1,3 +1,4 @@
 /tmp/
 /module/
 test.db
+*.build/

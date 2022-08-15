@@ -10,7 +10,7 @@
 # when you make software releases of the extension module that it
 # describes.
 from types import ModuleType
-
+from typing import Union
 
 
 class Modules:
