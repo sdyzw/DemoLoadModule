@@ -2,3 +2,4 @@
 /module/
 test.db
 *.build/
+.idea/
