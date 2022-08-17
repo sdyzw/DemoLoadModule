@@ -1,4 +1,4 @@
-# QTableWidget 冻结行列
+# 1，QTableWidget 冻结行列
 
 ## 示例：
 [![vBRTaT.gif](https://s1.ax1x.com/2022/08/17/vBRTaT.gif)](https://imgtu.com/i/vBRTaT)
