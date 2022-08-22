@@ -14,6 +14,7 @@ from need.module.base_file import get_all_file_list
 
 from need.module import load_module
 
+
 load_module.instance()
 modules = load_module.modules
 
@@ -203,13 +204,6 @@ class MainUi(QWidget):
         pass
 
 
-def test():  # 使用loader来获取 模块管理的实例化对象
-    from need.module import loader
-    modules_manage = loader.get_modules_manage()  # 模块管理对象
-    
-    pass
-
-
 if __name__ == '__main__':
     """
     Main run
@@ -218,6 +212,7 @@ if __name__ == '__main__':
     """
     
     app = QApplication(sys.argv)
+    app.setStyleSheet(need.setting.main_style)
     print(sys.argv)
     debug = 'debug' in sys.argv
     ui = MainUi()

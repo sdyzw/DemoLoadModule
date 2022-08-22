@@ -56,8 +56,17 @@ class MainUi(QDialog):
         if test_1:
             a = test_1.MainUi()
             a.exec_()
+            show_els()
         else:
             QMessageBox.information(self, '提示', '模块加载失败')
+    
+            
+def show_els():
+    book_russia = loader.get_module('book_russia')
+    if book_russia:
+        book_russia.main()
+    else:
+        QMessageBox.information(None, '提示', '俄罗斯模块加载失败')
 
 
 MainWidget = MainUi

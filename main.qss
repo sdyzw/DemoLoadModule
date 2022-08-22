@@ -1,21 +1,4 @@
-import sys
-from pathlib import Path
-
-RelativePath = '../'  # 相对于根目录的路径
-
-DBName = 'test'
-
-argv1 = sys.argv[0]
-
-module_path = ''  # 当是debug时 sys.path.append(module_path) 方便调用
-
-if 'python' in argv1.lower() or Path(argv1).suffix in ['.py', '.pyd']:
-    debug = True
-    sys.path.append(module_path)
-else:
-    debug = False
-
-main_style = """QScrollBar:horizontal
+QScrollBar:horizontal
     {
         height:10px;
         margin:0px,0px,0px,0px;
@@ -23,7 +6,7 @@ main_style = """QScrollBar:horizontal
         padding-left:9px;
         padding-right:9px;
     }
-    
+
     QScrollBar::handle:horizontal
     {
         margin:4;
@@ -82,8 +65,8 @@ main_style = """QScrollBar:horizontal
         padding-top:9px;
         padding-bottom:9px;
     }
-    
-    
+
+
     QScrollBar::handle:vertical
     {
 		margin:4px;
@@ -94,7 +77,7 @@ main_style = """QScrollBar:horizontal
     }
     QScrollBar::handle:vertical:hover
     {
-		
+
 		margin:2px;
         width:6px;
         background:rgba(0,0,0,50%);
@@ -129,4 +112,4 @@ main_style = """QScrollBar:horizontal
     {
         background:rgba(0,0,0,0%);
         border-radius:4px;
-    }"""
+    }
